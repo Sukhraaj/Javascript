@@ -32,3 +32,27 @@ const myFunction = function(){
     console.log("hello world");
 }
 console.log(typeof bigNumber);
+
+// +++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack (Primitive), Heap (Non Primitive)
+
+let myname = "Sukhe"
+
+let anothername = myname
+
+anothername = "Sukhraaj"
+
+console.log(anothername)
+
+let userOne = {
+    email: "user@gmail.com",
+    upi: "user@upi",
+}
+
+let userTwo = userOne
+
+userTwo.email ="Sukhe@gmail.com",
+
+console.log(userOne.email);
+console.log(userTwo.email);
